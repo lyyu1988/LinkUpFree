@@ -14,10 +14,13 @@ public class ImageTest
 	{
 		// TODO Auto-generated method stub
 		ImageIcon image = new ImageIcon("image//test.jpg");
-		JButton button = new JButton(image);
+		JButton button = new JButton();
+
+		button.setIcon(image);
+		
 		JFrame frame = new JFrame();
 
-		frame.setBounds(100, 100, 100, 100);
+		frame.setBounds(100, 100, 1000, 1000);
 
 		frame.add(button);
 
