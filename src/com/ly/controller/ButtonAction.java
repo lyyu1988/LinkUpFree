@@ -94,14 +94,17 @@ public class ButtonAction implements ActionListener
 			 * 第二次点击后进行判断，若颜色相等，在进入
 			 */
 
-			if (temp.getBackground().equals(button.getBackground()))
+			if (temp.getIcon().toString().equals(button.getIcon().toString()))
 			{
+				System.out.println("equal");
 				if ((0 == (row[0] - t[0]) && 1 == Math.abs(row[1] - t[1]))
 						|| (0 == (row[1] - t[1]) && 1 == Math
 								.abs(row[0] - t[0])) || isGet(t, row))
 				{
 					temp.setBackground(Color.WHITE);
+					temp.setIcon(null);
 					button.setBackground(Color.WHITE);
+					button.setIcon(null);
 					temp.setEnabled(false);
 					button.setEnabled(false);
 					temp = null;

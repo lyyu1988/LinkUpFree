@@ -83,7 +83,7 @@ public class MyView extends JFrame
 
 		PhotoPosition photoPosition = new PhotoPosition();
 
-		photoPosition.setPosition(200, 5);
+		photoPosition.setPosition(200, 50);
 
 		PhotoColor photoColor = new PhotoColor();
 
