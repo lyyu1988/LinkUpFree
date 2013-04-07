@@ -13,7 +13,7 @@ public class MyMain
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
-		new MyView(900,500);
+		new MyView(1280,634);
 	}
 
 }
