@@ -32,7 +32,6 @@ public class ImageTest
 		System.out.println(image.getImage().equals(image2.getImage()));
 
 		
-
 		JFrame frame = new JFrame();
 
 		frame.setBounds(100, 100, 1000, 1000);
